@@ -2,7 +2,7 @@
   "name": "bugdeploy",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js.js",
+  "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
     "backend": "nodemon backend/server.js",

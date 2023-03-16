@@ -3,10 +3,7 @@ const express = require("express");
 const app = express();
 
 const cors = require("cors");
-app.use(express.json(), cors({
-  origin: ["http://localhost:3000, http://hasan-bugtracker-app.onrender.com"],
-}
-));
+app.use(express.json(), cors());
 
 const connectDB = require("./config/connectDB");
 
